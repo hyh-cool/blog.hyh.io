@@ -70,22 +70,11 @@ export default defineUserConfig({
     homeHeaderImages: [
       {
         path: "/img/home-bg/1.jpg",
-        mask: "rgba(40, 57, 101, .4)"
+        mask: "rgba(196, 176, 131, .1)"
       },
       {
         path: "/img/home-bg/2.jpg",
         mask: "rgba(196, 176, 131, .1)"
-      },
-      {
-        path: "/img/home-bg/3.jpg",
-        mask: "rgba(68, 74, 83, .1)"
-      },
-      {
-        path: "/img/home-bg/4.jpg",
-        mask: "rgba(19, 75, 50, .2)"
-      },
-      {
-        path: "/img/home-bg/5.jpg"
       }
     ],
 
@@ -138,7 +127,7 @@ export default defineUserConfig({
         categoryId: "DIC_kwDOIe47J84CSstm",
         reactionsEnabled: false,
         lang: "zh-CN",
-        darkTheme: "https://blog.hyh.cool/styles/giscus-dark.css",
+        //darkTheme: "https://blog.hyh.cool/styles/giscus-dark.css",
       },
       mdPlus: {
         all: true
@@ -165,7 +154,7 @@ export default defineUserConfig({
       {
         text: "Docs",
         link: "/docs/",
-        icon: "fa-satellite-dish"
+        icon: "co-read-the-docs"
       },
       {
         text: "About",
@@ -184,10 +173,10 @@ export default defineUserConfig({
 
   markdown: {
     headers: {
-      level: [1]
+      level: [2,3,4]
     },
     code: {
-      lineNumbers: false
+      lineNumbers: true
     }
   }
 });
