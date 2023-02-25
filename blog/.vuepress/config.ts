@@ -49,7 +49,7 @@ export default defineUserConfig({
     docsBranch: "master",
     navbarTitle: "",
     //hitokoto: "https://v1.hitokoto.cn?c=i", // enable hitokoto (一言) or not?
-
+    editLink: false,
     // personal information
     personalInfo: {
       name: "记录技术,分享生活",
